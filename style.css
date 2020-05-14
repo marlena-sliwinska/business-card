@@ -1,0 +1,40 @@
+.body {
+  background: #2c2141;
+ 
+
+}
+
+.bussiness-card {
+    height: 320px;
+    width: 624px;
+    background: #F8F8F8;
+    size: border-box;
+    font-family: Arial;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    padding: 20px;
+  
+}
+
+
+
+.bussiness-card__photo {
+    
+}
+.bussiness-card__name {
+    font-size: 36px
+}
+.bussiness-card__position {
+    color: #545454;
+    font-style: italic;
+    font-size: 18px;
+
+}
+.bussiness-card__description {
+    font-size: 16px;
+    width: 380px;
+    height:173px;
+}
+
