@@ -25,10 +25,14 @@ body {
 }
 
 .bussiness-card {
+    display: flex;
+    align-items: flex-start;
 }
 
 .bussiness-card__photo {
-}
+    margin-right: 32px;
+  
+  }
 
 .bussiness-card__info {
     margin-bottom: 24px;
