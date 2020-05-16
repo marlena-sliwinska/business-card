@@ -1,40 +1,67 @@
-.body {
-  background: #2c2141;
- 
+html {
+  box-sizing: border-box;
+}
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
 }
 
 .bussiness-card {
-    height: 320px;
-    width: 624px;
-    background: #F8F8F8;
-    size: border-box;
-    font-family: Arial;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 16px;
-    padding: 20px;
-  
 }
-
-
 
 .bussiness-card__photo {
-    
 }
-.bussiness-card__name {
-    font-size: 36px
-}
-.bussiness-card__position {
-    color: #545454;
-    font-style: italic;
-    font-size: 18px;
 
+.bussiness-card__info {
+    margin-bottom: 24px;
+}
+
+.bussiness-card__name {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.bussiness-card__position {
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+  color: #545454;
 }
 .bussiness-card__description {
-    font-size: 16px;
-    width: 380px;
-    height:173px;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
 }
 
+.bussiness-card__description--with-margin {
+    margin-bottom: 22px;
+  }
+  
+.special {
+  color: #ed6d05;
+  font-weight: normal;
+}
+
+.bussiness-card__link {
+  color: #e20613;
+  text-decoration: none;
+}
